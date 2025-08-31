@@ -1,0 +1,831 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shinta Kazuki System - Jasa Pembuatan Website & Digital Marketing</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/uploads/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/uploads/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/uploads/favicon-16x16.png">
+    <link rel="manifest" href="/uploads/site.webmanifest">
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-LD00H03M4J"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-LD00H03M4J');
+    </script>
+
+    <!-- Meta Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window, document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init', '6255731844538343');
+fbq('track', 'PageView');
+</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=6255731844538343&ev=PageView&noscript=1"
+/></noscript>
+<!-- End Meta Pixel Code -->
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+    <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand me-4" href="#">
+            <img src="./img/logo-bg.jpg" alt="Shinta Kazuki System" style="height: 48px;">
+        </a>
+
+        <!-- Toggle Button for Mobile -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar Links & Button -->
+        <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNav">
+            
+            <!-- Menu tengah -->
+            <ul class="navbar-nav mx-auto gap-4">
+                <li class="nav-item">
+                    <a class="nav-link fw-medium" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium" href="#">Tentang Kami</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle fw-medium" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">
+                        Layanan
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="paket-website.html">Jasa Pembuatan Website</a></li>
+            <li><a class="dropdown-item" href="landingpage.html">Landing Page</a></li>
+            <li><a class="dropdown-item" href="e-commerce.html">E‑Commerce</a></li>
+            <li><a class="dropdown-item" href="sistem-informasi.html">Sistem Informasi</a></li>
+            <li><a class="dropdown-item" href="aplikasi-android.html">Aplikasi Android</a></li>
+            <li><a class="dropdown-item" href="instagram.html">Desain Feed Instagram</a></li>
+            <li><a class="dropdown-item" href="iklan.html">Seting Iklan</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium" href="portofolio.html">Portofolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-medium" href="hubungi-kami.html">Hubungi Kami</a>
+                </li>
+            </ul>
+
+            <!-- Tombol kanan -->
+            <div class="d-none d-lg-block">
+                <a style="background-color: rgba(4,84,147,255);" href="https://wa.me/6281364471418?text=Halo%20Admin%2C%20saya%20mau%20order%20website%20untuk%20bisnis%20saya.%20bisa%20di%20bantu%3F" target="_blank" class="btn btn-primary px-4 py-2 rounded-pill">
+                    <i class="fab fa-whatsapp me-2"></i>Konsultasi Gratis
+                </a>
+            </div>
+        </div>
+    </div>
+</nav>
+    
+<style>
+        .contact-hero {
+            background: linear-gradient(135deg, #1e293b 0%, #2563eb 100%);
+            padding: 120px 0 80px;
+            color: white;
+        }
+        
+        .step-card {
+            transition: all 0.3s ease;
+            border: 2px solid #e5e7eb;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .step-card:hover {
+            transform: translateY(-8px);
+            border-color: #2563eb;
+            box-shadow: 0 20px 40px rgba(37, 99, 235, 0.15);
+        }
+        
+        .step-number {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin: 0 auto 1rem;
+        }
+        
+        .office-card {
+            background: white;
+            border-radius: 16px;
+            padding: 2rem;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border: 1px solid #e5e7eb;
+            transition: all 0.3s ease;
+        }
+        
+        .office-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.15);
+        }
+        
+        .contact-info-item {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+            background: #f8fafc;
+            border-radius: 12px;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+        
+        .contact-info-item:hover {
+            background: #e0f2fe;
+            transform: translateX(5px);
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            color: white;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+        }
+        
+        .map-container {
+            height: 400px;
+            border-radius: 16px;
+            overflow: hidden;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .next-step-card {
+            background: linear-gradient(135deg, #2563eb, #3b82f6);
+            color: white;
+            border-radius: 16px;
+            padding: 2rem;
+            text-align: center;
+            transition: all 0.3s ease;
+        }
+        
+        .next-step-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(37, 99, 235, 0.3);
+        }
+        
+        .office-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            margin-bottom: 1.5rem;
+        }
+        
+        .whatsapp-btn {
+            background: #25d366;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .whatsapp-btn:hover {
+            background: #128c7e;
+            color: white;
+            transform: scale(1.05);
+        }
+        
+        .email-btn {
+            background: #ea4335;
+            color: white;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 50px;
+            font-weight: 600;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            transition: all 0.3s ease;
+        }
+        
+        .email-btn:hover {
+            background: #d33b2c;
+            color: white;
+            transform: scale(1.05);
+        }
+    </style>
+    
+    <!-- Hero Section -->
+    <section class="contact-hero">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-lg-8">
+                    <h1 class="display-4 fw-bold mb-4">Tentang Kami</h1>
+                    <p class="lead mb-0">
+                        Bantu Bisnis Anda Naik Level di Dunia Digital!.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <!-- Why Website Section -->
+    <section id="why-website" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 mx-auto text-center mb-5">
+                    <img src="./img/logo-bg.jpg" alt="Shinta Kazuki System" style="height: 48px;">
+                    <h2 class="display-4 fw-bold mb-4">
+                        Halo Kami <span class="text-primary">Shinta Kazuki System</span>
+                    </h2>
+                    <section class="py-1 bg-light">
+                        <div class="container">
+                            <div class="bg-white p-4 p-md-5 rounded shadow-sm">
+                            <p class="lead text-muted text-start m-0">
+                                <strong>CV. Shinta Kazuki System</strong> adalah agency digital yang siap membantu bisnis Anda tampil lebih profesional dan berkembang pesat di dunia online. Kami berfokus pada pembuatan website yang modern dan responsif, landing page yang dirancang untuk meningkatkan konversi, desain visual media sosial yang menarik, serta layanan digital marketing seperti iklan online (ads), SEO, dan social media management yang terukur dan efektif.
+                                <br><br>
+                                Kami percaya bahwa setiap bisnis memiliki potensi untuk tumbuh lebih besar. Tugas kami adalah membantu Anda menyampaikan pesan dengan cara yang tepat, melalui strategi digital yang kreatif, efisien, dan berdampak.
+                                <br><br>
+                                ✨ Bersama <strong>Shinta Kazuki System</strong>, wujudkan transformasi digital bisnis Anda.
+                            </p>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+   <!-- Why Choose Us Section -->
+    <section id="why-us" class="py-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-4 fw-bold mb-4">
+                        Kenapa Harus Pilih <span class="text-primary">Kami?</span>
+                    </h2>
+                    <p class="lead text-muted">
+                        Kami bukan sekadar vendor, tapi partner strategis yang berkomitmen untuk kesuksesan 
+                        transformasi digital bisnis Anda.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row g-4 mb-5">
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-primary shadow-sm hover-card">
+                        <div class="card-body p-4">
+                            <div class="text-primary mb-3">
+                                <i class="fas fa-award fa-3x"></i>
+                            </div>
+                            <h5 class="card-title">Pengalaman 5+ Tahun</h5>
+                            <p class="card-text text-muted mb-3">Tim berpengalaman dengan track record menangani 100+ project dari berbagai industri.</p>
+                            <small class="text-primary fw-bold">100+ Project Selesai</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-primary shadow-sm hover-card">
+                        <div class="card-body p-4">
+                            <div class="text-primary mb-3">
+                                <i class="fas fa-bolt fa-3x"></i>
+                            </div>
+                            <h5 class="card-title">Teknologi Terdepan</h5>
+                            <p class="card-text text-muted mb-3">Menggunakan framework dan tools terbaru untuk performa website yang optimal.</p>
+                            <small class="text-primary fw-bold">99.9% Uptime Guarantee</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-primary shadow-sm hover-card">
+                        <div class="card-body p-4">
+                            <div class="text-primary mb-3">
+                                <i class="fas fa-headphones fa-3x"></i>
+                            </div>
+                            <h5 class="card-title">Support 24/7</h5>
+                            <p class="card-text text-muted mb-3">Tim support yang siap membantu kapanpun Anda membutuhkan assistance.</p>
+                            <small class="text-primary fw-bold">Response &lt; 2 Jam</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-primary shadow-sm hover-card">
+                        <div class="card-body p-4">
+                            <div class="text-primary mb-3">
+                                <i class="fas fa-palette fa-3x"></i>
+                            </div>
+                            <h5 class="card-title">Desain Custom</h5>
+                            <p class="card-text text-muted mb-3">Setiap website dirancang khusus sesuai brand identity dan kebutuhan bisnis.</p>
+                            <small class="text-primary fw-bold">100% Original Design</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-primary shadow-sm hover-card">
+                        <div class="card-body p-4">
+                            <div class="text-primary mb-3">
+                                <i class="fas fa-code fa-3x"></i>
+                            </div>
+                            <h5 class="card-title">SEO Optimized</h5>
+                            <p class="card-text text-muted mb-3">Website yang SEO-friendly untuk ranking tinggi di mesin pencari Google.</p>
+                            <small class="text-primary fw-bold">Top 3 Google Ranking</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-6 col-lg-4">
+                    <div class="card h-100 border-primary shadow-sm hover-card">
+                        <div class="card-body p-4">
+                            <div class="text-primary mb-3">
+                                <i class="fas fa-bullseye fa-3x"></i>
+                            </div>
+                            <h5 class="card-title">ROI Terbukti</h5>
+                            <p class="card-text text-muted mb-3">Strategi digital marketing yang terbukti meningkatkan conversion rate klien.</p>
+                            <small class="text-primary fw-bold">Average 250% ROI</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <div class="p-4">
+                        <div class="display-4 fw-bold text-primary mb-2">5+</div>
+                        <div class="text-muted fw-semibold">Tahun Pengalaman</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4">
+                        <div class="display-4 fw-bold text-primary mb-2">100+</div>
+                        <div class="text-muted fw-semibold">Project Completed</div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="p-4">
+                        <div class="display-4 fw-bold text-primary mb-2">98%</div>
+                        <div class="text-muted fw-semibold">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="clients" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-4 fw-bold mb-4">
+                        Klien yang <span class="text-primary">Mempercayai Kami</span>
+                    </h2>
+                    <p class="lead text-muted">
+                        Lebih dari 200+ klien dari berbagai industri telah mempercayakan transformasi 
+                        digital mereka kepada Shinta Kazuki System.
+                    </p>
+                </div>
+            </div>
+            
+            <!-- Industry Filter -->
+            
+            <!-- Client Slider -->
+            <div class="client-slider-container mb-5">
+                <div class="client-slider" id="clientSlider">
+                    <!-- Clients will be duplicated for seamless loop -->
+                    
+                    <div class="client-card">
+                        <img src="./img/klien/1.png" alt="Gorillaz Cipayung" class="client-logo">
+                        <h6 class="client-name">Gorillaz Cipayung</h6>
+                        <small class="client-industry">Digital Marketing</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/21.png" alt="Gorillaz Cipayung" class="client-logo">
+                        <h6 class="client-name">Brighted Konsultasi</h6>
+                        <small class="client-industry">Website & Digital Marketing</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/2.png" alt="Khaizuran Apparel" class="client-logo">
+                        <h6 class="client-name">Khaizuran Apparel</h6>
+                        <small class="client-industry">Digital Marketing</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/3.png" alt="Brighted Akademi" class="client-logo">
+                        <h6 class="client-name">Brighted Akademi</h6>
+                        <small class="client-industry">Website & Digital Marketing</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/4.png" alt="Yudekor" class="client-logo">
+                        <h6 class="client-name">Yudekor</h6>
+                        <small class="client-industry">Website</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/5.png" alt="OneIP" class="client-logo">
+                        <h6 class="client-name">OneIP</h6>
+                        <small class="client-industry">Website</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/6.png" alt="Albaik Herbal Indonesia" class="client-logo">
+                        <h6 class="client-name">Albaik Herbal Indonesia</h6>
+                        <small class="client-industry">Website</small>
+                    </div>
+                     <div class="client-card">
+                        <img src="./img/klien/7.png" alt="La Priztya" class="client-logo">
+                        <h6 class="client-name">La Priztya</h6>
+                        <small class="client-industry">Website & Digital Marketing</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/8.png" alt="Sevire Car Care" class="client-logo">
+                        <h6 class="client-name">Sevire Car Care</h6>
+                        <small class="client-industry">Digital Marketing</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/10B.png" alt="Helta ID" class="client-logo">
+                        <h6 class="client-name">Helta ID</h6>
+                        <small class="client-industry">Website</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/11B.png" alt="Tiara Pariwisata" class="client-logo">
+                        <h6 class="client-name">Tiara Pariwisata</h6>
+                        <small class="client-industry">Digital Marketing</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/12B.png" alt="Radafa Interior" class="client-logo">
+                        <h6 class="client-name">Radafa Interior</h6>
+                        <small class="client-industry">Digital Marketing</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/13B.png" alt="Pandawa Interior" class="client-logo">
+                        <h6 class="client-name">Pandawa Interior</h6>
+                        <small class="client-industry">Digital Marketing</small>
+                    </div>
+                     <div class="client-card">
+                        <img src="./img/klien/9.png" alt="Radiologinet" class="client-logo">
+                        <h6 class="client-name">Radiologinet</h6>
+                        <small class="client-industry">Website</small>
+                    </div>
+                    <div class="client-card">
+                        <img src="./img/klien/14.png" alt="Masikama Official" class="client-logo">
+                        <h6 class="client-name">Masikama Official</h6>
+                        <small class="client-industry">Website & Digital Marketing</small>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+            
+            <!-- Success Stats -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="card bg-primary text-white">
+                        <div class="card-body p-5">
+                            <div class="row text-center">
+                                <div class="col-md-3">
+                                    <div class="display-4 fw-bold text-warning mb-2">200+</div>
+                                    <div>Klien Puas</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="display-4 fw-bold text-warning mb-2">15+</div>
+                                    <div>Industri Berbeda</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="display-4 fw-bold text-warning mb-2">98%</div>
+                                    <div>Repeat Business</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="display-4 fw-bold text-warning mb-2">5+</div>
+                                    <div>Tahun Pengalaman</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <h3 class="fw-bold mb-3">Siap Bergabung dengan Klien Sukses Kami?</h3>
+                    <p class="text-muted mb-4">Mari diskusikan bagaimana kami dapat membantu mencapai tujuan digital bisnis Anda.</p>
+                    <button class="btn btn-primary btn-lg" onclick="location.href='https://wa.me/6281364471418'">Jadilah Klien Kami</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center mb-5">
+                    <h2 class="display-4 fw-bold mb-4">
+                        Apa Kata <span class="text-primary">Klien Kami?</span>
+                    </h2>
+                    <p class="lead text-muted">
+                        Kepuasan klien adalah prioritas utama kami. Inilah testimoni dari para klien 
+                        yang telah merasakan dampak positif layanan kami.
+                    </p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card border-primary shadow-lg">
+                                    <div class="card-body p-5">
+                                        <div class="text-primary mb-4">
+                                            <i class="fas fa-quote-left fa-3x"></i>
+                                        </div>
+                                        <div class="mb-4">
+                                            <div class="text-warning mb-3">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <p class="lead mb-4">"Shinta Kazuki System benar-benar memahami kebutuhan bisnis kami. Website yang mereka buat tidak hanya menarik secara visual, tapi juga meningkatkan penjualan online kami hingga 300%. Tim yang sangat profesional dan responsif."</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            
+                                            <div>
+                                                <h5 class="mb-1">Aan Maryati</h5>
+                                                <p class="text-primary mb-0">Masikama Official</p>
+                                                <small class="text-muted">Fashion Muslimah</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <div class="card border-primary shadow-lg">
+                                    <div class="card-body p-5">
+                                        <div class="text-primary mb-4">
+                                            <i class="fas fa-quote-left fa-3x"></i>
+                                        </div>
+                                        <div class="mb-4">
+                                            <div class="text-warning mb-3">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <p class="lead mb-4">"Pelayanan yang luar biasa! Dari konsultasi awal hingga launching website, semua berjalan sangat smooth. Yang paling saya suka adalah mereka selalu memberikan saran terbaik untuk optimasi performa website kami."</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <h5 class="mb-1">Praharsa</h5>
+                                                <p class="text-primary mb-0">Radiologinet</p>
+                                                <small class="text-muted">Website</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <div class="card border-primary shadow-lg">
+                                    <div class="card-body p-5">
+                                        <div class="text-primary mb-4">
+                                            <i class="fas fa-quote-left fa-3x"></i>
+                                        </div>
+                                        <div class="mb-4">
+                                            <div class="text-warning mb-3">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <p class="lead mb-4">"Investasi terbaik untuk bisnis kami! E-commerce platform yang dibangun oleh Shinta Kazuki System sangat user-friendly dan conversion rate kami meningkat drastis. Support team mereka juga sangat helpful."</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <h5 class="mb-1">Akmaja</h5>
+                                                <p class="text-primary mb-0">Helta</p>
+                                                <small class="text-muted">Website</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <div class="card border-primary shadow-lg">
+                                    <div class="card-body p-5">
+                                        <div class="text-primary mb-4">
+                                            <i class="fas fa-quote-left fa-3x"></i>
+                                        </div>
+                                        <div class="mb-4">
+                                            <div class="text-warning mb-3">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <p class="lead mb-4">"Website klinik kami sekarang terlihat sangat profesional dan memudahkan pasien untuk booking appointment online. Tim Shinta Kazuki System sangat detail dan memahami industri healthcare dengan baik."</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            <div>
+                                                <h5 class="mb-1">Sihab</h5>
+                                                <p class="text-primary mb-0">OneIP</p>
+                                                <small class="text-muted">Website</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="carousel-item">
+                                <div class="card border-primary shadow-lg">
+                                    <div class="card-body p-5">
+                                        <div class="text-primary mb-4">
+                                            <i class="fas fa-quote-left fa-3x"></i>
+                                        </div>
+                                        <div class="mb-4">
+                                            <div class="text-warning mb-3">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                            </div>
+                                            <p class="lead mb-4">"Sebagai startup, kami butuh website yang bisa scale dengan pertumbuhan bisnis. Shinta Kazuki System memberikan solusi yang tepat dengan teknologi modern dan support jangka panjang yang excellent."</p>
+                                        </div>
+                                        <div class="d-flex align-items-center">
+                                            
+                                            <div>
+                                                <h5 class="mb-1">Alex</h5>
+                                                <p class="text-primary mb-0">Yudekor</p>
+                                                <small class="text-muted">Desain Interior</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                            <div class="btn btn-primary rounded-circle p-3">
+                                <i class="fas fa-chevron-left"></i>
+                            </div>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                            <div class="btn btn-primary rounded-circle p-3">
+                                <i class="fas fa-chevron-right"></i>
+                            </div>
+                        </button>
+                        
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="3"></button>
+                            <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="4"></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <h3 class="fw-bold mb-3">Siap Menjadi Testimoni Sukses Berikutnya?</h3>
+                    <p class="text-muted mb-4">Bergabunglah dengan ratusan klien yang telah merasakan transformasi digital bersama kami.</p>
+                    <button class="btn btn-primary btn-lg" onclick="location.href='https://wa.me/6281364471418'">Mulai Sekarang</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Footer -->
+    <footer class="bg-dark text-white py-5">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-md-6">
+                    <img src="https://prizdigi.id//logo_white.png" alt="Shinta Kazuki System" style="height: 48px;">
+                    <p class="text-light mb-4">
+                        Partner terpercaya untuk transformasi digital bisnis Anda. Kami menyediakan 
+                        solusi website dan digital marketing yang inovatif untuk mengembangkan bisnis 
+                        di era digital.
+                    </p>
+                    <div class="d-flex gap-3">
+                        <a href="#" class="btn btn-primary btn-sm">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://www.instagram.com/shintakazukisystem" class="btn btn-primary btn-sm" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary btn-sm">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="btn btn-primary btn-sm">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="col-md-3">
+                    <h5 class="mb-4">Layanan Kami</h5>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Website Development</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Digital Marketing</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">SEO Optimization</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">E-commerce</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">Mobile App</a></li>
+                        <li class="mb-2"><a href="#" class="text-light text-decoration-none">UI/UX Design</a></li>
+                    </ul>
+                </div>
+                
+                <div class="col-md-3">
+                    <h5 class="mb-4">Hubungi Kami</h5>
+                    <div class="mb-3">
+                        <i class="fas fa-phone text-primary me-2"></i>
+                        <span class="text-light">081364471418</span>
+                    </div>
+                    <div class="mb-3">
+                        <i class="fas fa-envelope text-primary me-2"></i>
+                        <span class="text-light">shintakazukisystem@gmail.com</span>
+                    </div>
+                    <div class="mb-3">
+                        <i class="fas fa-map-marker-alt text-primary me-2"></i>
+                        <span class="text-light">
+                            Kawasan Niaga Metro Trade Center Blok A-26. Jl. Soekarno
+ Hatta No. 590, Sekejati, Buahbatu, Bandung 40286
+                        </span>
+                    </div>
+                </div>
+            </div>
+            
+            <hr class="my-4">
+            
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-muted mb-0">© 2024 Shinta Kazuki System. All rights reserved.</p>
+                </div>
+                <div class="col-md-6">
+                    <div class="d-flex justify-content-md-end gap-4 mt-3 mt-md-0">
+                        <a href="#" class="text-muted text-decoration-none">Privacy Policy</a>
+                        <a href="#" class="text-muted text-decoration-none">Terms of Service</a>
+                        <a href="#" class="text-muted text-decoration-none">Sitemap</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap 5 JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catalog Aplikasi Android – Shinta Kazuki System</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="/uploads/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/uploads/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/uploads/favicon-16x16.png">
+  <link rel="manifest" href="/uploads/site.webmanifest">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-LD00H03M4J"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-LD00H03M4J');
+  </script>
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '6255731844538343');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=6255731844538343&ev=PageView&noscript=1"
+  /></noscript>
+  <style>html { scroll-behavior: smooth; }</style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top shadow-sm">
+  <div class="container">
+    <a class="navbar-brand me-4" href="index.html">
+      <img src="./img/logo-bg.jpg" alt="Shinta Kazuki System" style="height:48px;">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-between align-items-center" id="navbarNav">
+      <ul class="navbar-nav mx-auto gap-4">
+        <li class="nav-item"><a class="nav-link fw-medium" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium" href="tentang-kami.html">Tentang Kami</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-medium" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown">Layanan</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="paket-website.html">Jasa Pembuatan Website</a></li>
+            <li><a class="dropdown-item" href="landingpage.html">Landing Page</a></li>
+            <li><a class="dropdown-item" href="e-commerce.html">E‑Commerce</a></li>
+            <li><a class="dropdown-item" href="sistem-informasi.html">Sistem Informasi</a></li>
+            <li><a class="dropdown-item" href="aplikasi-android.html">Aplikasi Android</a></li>
+            <li><a class="dropdown-item" href="instagram.html">Desain Feed Instagram</a></li>
+            <li><a class="dropdown-item" href="iklan.html">Seting Iklan</a></li>
+          </ul>
+        </li>
+        <li class="nav-item"><a class="nav-link fw-medium" href="portofolio.html">Portofolio</a></li>
+        <li class="nav-item"><a class="nav-link fw-medium" href="hubungi-kami.html">Hubungi Kami</a></li>
+      </ul>
+      <div class="d-none d-lg-block">
+        <a style="background-color: rgba(4,84,147,255);" href="https://wa.me/6281364471418?text=Halo%20Admin%2C%20saya%20mau%20konsultasi%20pembuatan%20website." target="_blank" class="btn btn-primary px-4 py-2 rounded-pill">
+          <i class="fab fa-whatsapp me-2"></i>Konsultasi Gratis
+        </a>
+      </div>
+    </div>
+  </div>
+</nav>
+<section class="hero-section" style="padding-top:8rem;padding-bottom:5rem;">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-6 order-1 order-lg-2">
+        <img src="./img/banner-web.webp" class="img-fluid rounded-4" alt="Banner">
+      </div>
+      <div class="col-lg-6 order-2 order-lg-1">
+        <p class="fw-semibold mb-3">Masuk ke Genggaman Pelanggan</p>
+        <h1 class="display-4 fw-bold mb-4">Aplikasi Android yang Praktis, Aman, dan Terkelola</h1>
+        <p class="lead text-muted mb-4">Mulai dari MVP sederhana hingga solusi enterprise full custom.</p>
+        <div class="d-flex flex-wrap gap-2">
+          <a href="#paket" class="btn btn-primary btn-lg"><i class="fa-solid fa-box me-2"></i>Lihat Paket</a>
+          <a href="https://wa.me/6281364471418" target="_blank" class="btn btn-outline-dark btn-lg"><i class="fab fa-whatsapp me-2"></i>Tanya Tim Kami</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="kenapa" class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h2 class="display-6 fw-bold">Kenapa Anda Butuh <span class="text-primary">Aplikasi Android</span>?</h2>
+        <p class="lead text-muted">Di pasar yang semakin kompetitif, Aplikasi Android membantu Anda memenangkan atensi, menaikkan konversi, dan mempercepat pertumbuhan.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-4"><div class="card h-100 border-primary shadow-sm"><div class="card-body p-4 text-center"><i class="fas fa-bolt fa-3x text-primary mb-3"></i><h5>Konversi Lebih Cepat</h5><p class="text-muted">Struktur konten fokus aksi: headline kuat, bukti sosial, dan CTA jelas.</p></div></div></div>
+      <div class="col-md-6 col-lg-4"><div class="card h-100 border-primary shadow-sm"><div class="card-body p-4 text-center"><i class="fas fa-magnifying-glass-chart fa-3x text-primary mb-3"></i><h5>Terukur & Data‑Driven</h5><p class="text-muted">Siap diintegrasikan dengan analytics untuk optimasi berkelanjutan.</p></div></div></div>
+      <div class="col-md-6 col-lg-4"><div class="card h-100 border-primary shadow-sm"><div class="card-body p-4 text-center"><i class="fas fa-mobile-screen-button fa-3x text-primary mb-3"></i><h5>Mobile‑First</h5><p class="text-muted">Tampilan cepat, ringan, dan nyaman di semua perangkat.</p></div></div></div>
+    </div>
+    <div class="row mt-5"><div class="col-12 text-center">
+      <a href="https://wa.me/6281364471418" target="_blank" class="btn btn-warning btn-lg">Butuh Saran Paket? Konsultasi Gratis</a>
+    </div></div>
+  </div>
+</section>
+
+<section id="paket" class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h2 class="display-6 fw-bold">Paket Aplikasi Android</h2>
+        <p class="lead text-muted">Pilih paket yang paling pas dengan target dan anggaran Anda. Semua paket termasuk domain, hosting, dan dukungan teknis.</p>
+      </div>
+    </div>
+    <div class='row g-4'>
+        <div class="col-lg-4">
+          <div class="card h-100 shadow-sm">
+            
+            <div class="card-body p-4">
+              <h3 class="card-title fw-bold mb-2">Basic App</h3>
+              <div class="mb-3"><span class="display-6 " style="text-decoration: line-through;font-size: 1.7rem;margin-bottom: -25px;"><i>Rp 7.800.000</i></span></div>
+              <div class="mb-3"><span class="display-6 fw-bold">Rp 7.101.000</span></div>
+              <ul class="list-unstyled mb-4"><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Aplikasi sederhana (1–2 fitur utama)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Desain mobile friendly</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Integrasi website (opsional)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Cocok untuk katalog/company profile</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Gratis domain (.my.id / .co.id) + hosting API 2 tahun</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Publish ke Google Play Store</li></ul>
+              <a href="https://wa.me/6281364471418?text=Halo%20Admin%2C%20saya%20tertarik%20paket%20Basic%20App%20–%207%20Juta" target="_blank" class="btn btn-dark btn-lg w-100">Pilih Basic</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-4">
+          <div class="card h-100 border-primary shadow-lg position-relative">
+            <div class="position-absolute top-0 start-50 translate-middle"><span class="badge bg-primary px-3 py-2"><i class="fas fa-star me-1"></i>Rekomendasi</span></div>
+            <div class="card-body p-4">
+              <h3 class="card-title fw-bold mb-2">Standard App</h3>
+              <div class="mb-3"><span class="display-6 " style="text-decoration: line-through;font-size: 1.7rem;margin-bottom: -25px;"><i>Rp 10.800.000</i></span></div>
+              <div class="mb-3"><span class="display-6 fw-bold">Rp 10.101.000</span></div>
+              <ul class="list-unstyled mb-4"><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>3–5 fitur (Login, katalog, kontak, form)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Push notification dasar</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Dashboard admin sederhana</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Desain modern & responsif</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Gratis domain/hosting API 2 tahun</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Publish ke Google Play Store</li></ul>
+              <a href="https://wa.me/6281364471418?text=Halo%20Admin%2C%20saya%20tertarik%20paket%20Standard%20App%20–%2010%20Juta" target="_blank" class="btn btn-dark btn-lg w-100">Pilih Standard</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-4">
+          <div class="card h-100 shadow-sm">
+            
+            <div class="card-body p-4">
+              <h3 class="card-title fw-bold mb-2">Professional App</h3>
+              <div class="mb-3"><span class="display-6 " style="text-decoration: line-through;font-size: 1.7rem;margin-bottom: -25px;"><i>Rp 15.800.000</i></span></div>
+              <div class="mb-3"><span class="display-6 fw-bold">Rp 15.101.000</span></div>
+              <ul class="list-unstyled mb-4"><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>5–8 fitur (Login, keranjang, chat WA, testimoni, promo)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Dashboard & laporan transaksi</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Push notification + email</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Integrasi Google Maps</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Hosting API 2 tahun + Publish</li></ul>
+              <a href="https://wa.me/6281364471418?text=Halo%20Admin%2C%20saya%20tertarik%20paket%20Professional%20App%20–%2015%20Juta" target="_blank" class="btn btn-dark btn-lg w-100">Pilih Professional</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-4">
+          <div class="card h-100 shadow-sm">
+            
+            <div class="card-body p-4">
+              <h3 class="card-title fw-bold mb-2">Business App</h3>
+              <div class="mb-3"><span class="display-6 " style="text-decoration: line-through;font-size: 1.7rem;margin-bottom: -25px;"><i>Rp 20.800.000</i></span></div>
+              <div class="mb-3"><span class="display-6 fw-bold">Rp 20.101.000</span></div>
+              <ul class="list-unstyled mb-4"><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>8–12 fitur (checkout, pembayaran, tracking order)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Payment Gateway (VA, e‑wallet, bank)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Dashboard admin lengkap</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Push notification real‑time</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Hosting API 2 tahun + Publish</li></ul>
+              <a href="https://wa.me/6281364471418?text=Halo%20Admin%2C%20saya%20tertarik%20paket%20Business%20App%20–%2020%20Juta" target="_blank" class="btn btn-dark btn-lg w-100">Pilih Business</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-4">
+          <div class="card h-100 shadow-sm">
+            
+            <div class="card-body p-4">
+              <h3 class="card-title fw-bold mb-2">Premium App</h3>
+              <div class="mb-3"><span class="display-6 " style="text-decoration: line-through;font-size: 1.7rem;margin-bottom: -25px;"><i>Rp 30.800.000</i></span></div>
+              <div class="mb-3"><span class="display-6 fw-bold">Rp 30.101.000</span></div>
+              <ul class="list-unstyled mb-4"><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Skala besar (e‑commerce penuh, akademik, reservasi, dll.)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Unlimited produk/data</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Dashboard analitik interaktif</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Integrasi pihak ketiga (payment, SMS, ERP/CRM)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Security & enkripsi standar industri</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Hosting API 2 tahun + Publish</li></ul>
+              <a href="https://wa.me/6281364471418?text=Halo%20Admin%2C%20saya%20tertarik%20paket%20Premium%20App%20–%2030%20Juta" target="_blank" class="btn btn-dark btn-lg w-100">Pilih Premium</a>
+            </div>
+          </div>
+        </div>
+        
+
+        <div class="col-lg-4">
+          <div class="card h-100 shadow-sm">
+            
+            <div class="card-body p-4">
+              <h3 class="card-title fw-bold mb-2">Enterprise App</h3>
+              <div class="mb-3"><span class="display-6 " style="text-decoration: line-through;font-size: 1.7rem;margin-bottom: -25px;"><i>Rp 50.800.000</i></span></div>
+              <div class="mb-3"><span class="display-6 fw-bold">Rp 50.101.000</span></div>
+              <ul class="list-unstyled mb-4"><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Full custom enterprise level</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Unlimited fitur (ERP, CRM, SIMRS, E‑Learning, Marketplace)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Integrasi multi‑platform (API, Web, iOS – opsional)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Multi role user lengkap</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Keamanan tinggi (SSL, OTP, enkripsi)</li><li class="mb-2"><i class="fas fa-check text-primary me-2"></i>Support 1 tahun + Hosting API 2 tahun + Publish</li></ul>
+              <a href="https://wa.me/6281364471418?text=Halo%20Admin%2C%20saya%20tertarik%20paket%20Enterprise%20App%20–%2050%20Juta" target="_blank" class="btn btn-dark btn-lg w-100">Pilih Enterprise</a>
+            </div>
+          </div>
+        </div>
+        </div>
+    <div class="row mt-5"><div class="col-12 text-center">
+      <p class="text-muted mb-3">Butuh skema custom? Kami siap menyesuaikan fitur & scope.</p>
+      <a href="https://wa.me/6281364471418" target="_blank" class="btn btn-primary btn-lg">Buat Paket Custom</a>
+    </div></div>
+  </div>
+</section>
+
+<section id="why-us" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h2 class="display-6 fw-bold">Kenapa Harus <span class="text-primary">Perusahaan Kami</span>?</h2>
+        <p class="lead text-muted">Kami menggabungkan strategi, desain, dan eksekusi teknis agar tujuan bisnis Anda tercapai.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6 col-lg-3"><div class="card h-100 border-primary shadow-sm"><div class="card-body p-4"><i class="fas fa-award fa-2x text-primary mb-3"></i><h6>Berpengalaman</h6><p class="small text-muted mb-0">200+ proyek lintas industri, proses rapi & terukur.</p></div></div></div>
+      <div class="col-md-6 col-lg-3"><div class="card h-100 border-primary shadow-sm"><div class="card-body p-4"><i class="fas fa-palette fa-2x text-primary mb-3"></i><h6>Desain Custom</h6><p class="small text-muted mb-0">Bukan template pasaran—selaras identitas brand.</p></div></div></div>
+      <div class="col-md-6 col-lg-3"><div class="card h-100 border-primary shadow-sm"><div class="card-body p-4"><i class="fas fa-rocket fa-2x text-primary mb-3"></i><h6>Performa Tinggi</h6><p class="small text-muted mb-0">Kecepatan & SEO on‑page yang siap bersaing.</p></div></div></div>
+      <div class="col-md-6 col-lg-3"><div class="card h-100 border-primary shadow-sm"><div class="card-body p-4"><i class="fas fa-headset fa-2x text-primary mb-3"></i><h6>Support Responsif</h6><p class="small text-muted mb-0">Tim ramah, respons &lt; 2 jam kerja.</p></div></div></div>
+    </div>
+    <div class="row mt-5"><div class="col-12 text-center">
+      <a href="https://wa.me/6281364471418" target="_blank" class="btn btn-primary btn-lg">Diskusikan Kebutuhan Anda</a>
+    </div></div>
+  </div>
+</section>
+
+<section id="testimoni" class="py-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h2 class="display-6 fw-bold">Apa Kata <span class="text-primary">Klien</span></h2>
+        <p class="lead text-muted">Kepercayaan tumbuh dari hasil. Berikut sebagian pengalaman mereka.</p>
+      </div>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6"><div class="card border-primary shadow-sm"><div class="card-body p-4"><div class="text-warning mb-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="mb-3">“Website kami jadi terlihat profesional dan trafik meningkat signifikan.”</p><h6 class="mb-0">Masikama Official</h6><small class="text-muted">Fashion</small></div></div></div>
+      <div class="col-md-6"><div class="card border-primary shadow-sm"><div class="card-body p-4"><div class="text-warning mb-2"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></div><p class="mb-3">“Prosesnya rapi, support-nya cepat, hasilnya di atas ekspektasi.”</p><h6 class="mb-0">Radiologinet</h6><small class="text-muted">Kesehatan</small></div></div></div>
+    </div>
+    <div class="row mt-5"><div class="col-12 text-center">
+      <a href="https://wa.me/6281364471418" target="_blank" class="btn btn-primary btn-lg">Ingin Hasil Serupa? Konsultasi Sekarang</a>
+    </div></div>
+  </div>
+</section>
+
+<section id="faq" class="py-5 bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <h2 class="display-6 fw-bold">FAQ</h2>
+        <p class="lead text-muted">Pertanyaan umum seputar Aplikasi Android. Jika belum terjawab, tim kami siap membantu.</p>
+      </div>
+    </div>
+    <div class="accordion" id="faqAccordion">
+      
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#faq1">Apakah dipublish ke Play Store?</button>
+          </h2>
+          <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Ya, termasuk proses publishing sesuai ketentuan Google.</div>
+          </div>
+        </div>
+        
+
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">Apakah ada push notification?</button>
+          </h2>
+          <div id="faq2" class="accordion-collapse collapse " data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Tersedia dari paket Standard ke atas.</div>
+          </div>
+        </div>
+        
+
+        <div class="accordion-item mb-3 border-primary">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">Bisa integrasi payment?</button>
+          </h2>
+          <div id="faq3" class="accordion-collapse collapse " data-bs-parent="#faqAccordion">
+            <div class="accordion-body">Bisa untuk paket Business ke atas.</div>
+          </div>
+        </div>
+        
+    </div>
+    <div class="row mt-5"><div class="col-12 text-center">
+      <a href="https://wa.me/6281364471418" target="_blank" class="btn btn-warning btn-lg">Ada Pertanyaan Lain? Chat Kami</a>
+    </div></div>
+  </div>
+</section>
+
+<footer class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-md-6">
+        <img src="./img/logo-bg.jpg" alt="Shinta Kazuki System" style="height:48px;">
+        <p class="text-light mb-4">Partner terpercaya untuk transformasi digital bisnis Anda.</p>
+        <div class="d-flex gap-3">
+          <a href="#" class="btn btn-primary btn-sm"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/shintakazukisystem" class="btn btn-primary btn-sm" target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="btn btn-primary btn-sm"><i class="fab fa-linkedin-in"></i></a>
+          <a href="#" class="btn btn-primary btn-sm"><i class="fab fa-twitter"></i></a>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <h5 class="mb-4">Layanan</h5>
+        <ul class="list-unstyled">
+          <li class="mb-2"><a href="paket-website.html" class="text-light text-decoration-none">Website Development</a></li>
+          <li class="mb-2"><a href="e-commerce.html" class="text-light text-decoration-none">E‑Commerce</a></li>
+          <li class="mb-2"><a href="sistem-informasi.html" class="text-light text-decoration-none">Sistem Informasi</a></li>
+          <li class="mb-2"><a href="aplikasi-android.html" class="text-light text-decoration-none">Aplikasi Android</a></li>
+        </ul>
+      </div>
+      <div class="col-md-3">
+        <h5 class="mb-4">Hubungi Kami</h5>
+        <div class="mb-2"><i class="fas fa-phone text-primary me-2"></i>081364471418</div>
+        <div class="mb-2"><i class="fas fa-envelope text-primary me-2"></i>shintakazukisystem@gmail.com</div>
+        <div class="mb-2"><i class="fas fa-map-marker-alt text-primary me-2"></i>Kawasan Niaga Metro Trade Center Blok A-26. Jl. Soekarno
+          Hatta No. 590, Sekejati, Buahbatu, Bandung 40286</div>
+      </div>
+    </div>
+    <hr class="my-4"><p class="text-muted mb-0">© 2024 Shinta Kazuki System. All rights reserved.</p>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body></html>
